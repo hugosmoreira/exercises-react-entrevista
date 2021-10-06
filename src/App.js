@@ -1,6 +1,7 @@
 import './App.css';
 import FunctionCounter from './FunctionCounter';
 import Ball from './Ball';
+import Lottery from './Lottery'
 
 function App() {
   return (
@@ -10,16 +11,12 @@ function App() {
       </div>
       <br />
 
-      <div>
-        <Ball num={10} />
-        <Ball num={9} />
-        <Ball num={8} />
-        <Ball num={7} />
-        <Ball num={6} />
-        <Ball num={5} />
-        <Ball num={4} />
-      </div>
+     
       <br />
+
+      <div>
+        <Lottery />
+      </div>
      
       
       
